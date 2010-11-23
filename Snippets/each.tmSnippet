@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{\$each: [$0]}</string>
+	<key>name</key>
+	<string>each</string>
+	<key>scope</key>
+	<string>source.js.mongodb</string>
+	<key>tabTrigger</key>
+	<string>ea</string>
+	<key>uuid</key>
+	<string>79A2BA31-4FF7-4573-AC8E-D843733F4347</string>
+</dict>
+</plist>

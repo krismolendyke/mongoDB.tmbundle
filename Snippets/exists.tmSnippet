@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{\$exists: ${1:true|false}}$0</string>
+	<key>name</key>
+	<string>exists</string>
+	<key>scope</key>
+	<string>source.js.mongodb</string>
+	<key>tabTrigger</key>
+	<string>exists</string>
+	<key>uuid</key>
+	<string>5ADED00A-3F08-4B53-B8F0-031070816496</string>
+</dict>
+</plist>
