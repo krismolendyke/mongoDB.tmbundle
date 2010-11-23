@@ -1,6 +1,6 @@
 # mongoDB Bundle for TextMate
 
-This TextMate bundle helps with writing mongoDB flavored JavaScript.
+This TextMate bundle helps with editing mongoDB flavored JavaScript.  At the moment it's a small query language definition and a bunch of snippets.
 
 ## Author
 
