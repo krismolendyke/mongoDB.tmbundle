@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>db = connect("${1:localhost}:${2:27017}/${3:mydb}");$0</string>
+	<key>name</key>
+	<string>connect</string>
+	<key>scope</key>
+	<string>source.js.mongodb</string>
+	<key>tabTrigger</key>
+	<string>connect</string>
+	<key>uuid</key>
+	<string>423DE511-69C0-40E0-9C27-56C4D03183C7</string>
+</dict>
+</plist>

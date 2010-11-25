@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>nop</string>
+	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-title=`"$TM_MONGOD" --version | head -n1`
-html_header "$title"
-"$TM_MONGOD" --quiet | pre
-html_footer
-</string>
+	<string>echo "printjson("$TM_SELECTED_TEXT");"</string>
+	<key>fallbackInput</key>
+	<string>line</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>^@M</string>
+	<string>^@P</string>
 	<key>name</key>
-	<string>Start mongoDB</string>
+	<string>Wrap selection in printjson</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>replaceSelectedText</string>
 	<key>scope</key>
 	<string>source.js.mongodb</string>
 	<key>uuid</key>
-	<string>477F5BD4-AC1B-4D23-AA03-AB56AAA6E226</string>
+	<string>375FFF8B-F285-4468-B543-9FAFAE554A73</string>
 </dict>
 </plist>
