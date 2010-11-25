@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-title=`"$TM_MONGO" --version`
+title=`"$TM_MONGOD" --version | grep ^db`
 html_header "$title"
-"$TM_MONGO" "$TM_FILEPATH" | grep -iv 'mongodb shell version' | pre
+"$TM_MONGOD" --quiet | pre
 html_footer
 </string>
 	<key>input</key>
-	<string>document</string>
+	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^@M</string>
 	<key>name</key>
-	<string>Run Script</string>
+	<string>Start mongoDB</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.js.mongodb</string>
 	<key>uuid</key>
-	<string>4D6DB020-D698-4BEB-A587-1450C0146E12</string>
+	<string>477F5BD4-AC1B-4D23-AA03-AB56AAA6E226</string>
 </dict>
 </plist>
